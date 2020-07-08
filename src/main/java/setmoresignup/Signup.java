@@ -22,7 +22,9 @@ public class Signup {
 		driver.get("https://my.setmore.com/logout.do");
 		System.out.println("Landed to Setmore Login page");
 		driver.findElement(By.id("username")).sendKeys("rsakthi1994@gmail.com");
+		System.out.println("Passed username");
 		driver.findElement(By.id("password")).sendKeys("sakthi27");
+		System.out.println("Passed Password");
 		driver.findElement(By.id("login-now")).click();
 		System.out.println("Logging in ");
 		Thread.sleep(10000);
